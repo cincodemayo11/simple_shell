@@ -17,7 +17,7 @@ void prompt(void)
 	{
 		if (eractive)
 		{
-			printf("$ ");
+			printf("#cisfun$ ");
 		}
 
 		nread = getline(&command, &len, stdin);
