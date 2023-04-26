@@ -19,11 +19,6 @@ void prompt(void)
 		{
 			printf("#cisfun$ ");
 		}
-		else
-		{
-			printf("#cisfun$ ");
-			fflush(stdout);
-		}
 
 		nread = getline(&command, &len, stdin);
 		if (nread == -1)
