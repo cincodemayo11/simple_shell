@@ -19,7 +19,7 @@ void execute(char *command, char **args)
 	}
 	else if (pid == 0)
 	{
-		if (execve(command, args, NULL) == -1)
+		if (execve(command, args, environ) == -1)
 		{
 			perror("./shell");
 			exit(EXIT_FAILURE);
