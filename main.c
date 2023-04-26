@@ -8,7 +8,7 @@
 
 int main(void)
 {
-        prompt();
+	prompt();
 
-        return (0);
+	return (0);
 }
