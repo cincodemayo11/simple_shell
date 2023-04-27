@@ -40,7 +40,7 @@ void prompt(void)
 			free(command);
 		}
 		split(command);
-		free(command);
+
 	}
 	free(command);
 }
